@@ -15,13 +15,14 @@ img {
 
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: black;
 }
 
 
 
 h1 {
   font-family: "SF Distant Galaxy";
+  color:yellow;
 }
 
 
