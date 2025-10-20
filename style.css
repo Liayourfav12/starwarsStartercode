@@ -2,10 +2,33 @@
 
 img {
   align-self: center;
+  
 }
 
+h1{
+   font-family: "SF Distant Galaxy";
+  color: yellow;
+}
+.link {
+  display: flex;
+  justify-content: space-around;
+}
 
+a{
+  color: yellow;
+  text-align: center;
+}
 
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
 
 @font-face {
   font-family: "SF Distant Galaxy";
@@ -28,9 +51,13 @@ h1 {
 
 
 /* computer */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px){
 
+  div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 
 }
-
